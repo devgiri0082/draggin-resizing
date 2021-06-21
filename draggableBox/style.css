@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(247, 199, 207);
+    user-select: none;
+}
+
+.box {
+    position: absolute;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+    background: rgb(114, 89, 225);
+    display: grid;
+    place-content: center;
+    color: white;
+    cursor: move;
+}
